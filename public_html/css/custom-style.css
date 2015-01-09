@@ -1,0 +1,56 @@
+/* Here is where i customize my borders, i can change color, width, and style on top of margin and padding */
+div {
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    padding: 2px;
+    margin: 0px;
+}
+
+/* Here is where i customize my container, i can change color, width, and style just like i did above. */
+.container{
+    border-style: solid;
+    border-width: 0px;
+} 
+
+/* Here is where i customize my row, i can change color, width, and style just as before. */
+.row{
+    border-style: solid;
+    border-width: 0px;
+}
+
+/* Here is where i customize my body, this is where i can change  all the text, the text color, and style
+   on the website except for my technology page because of one minor visual detail */
+body{
+    background-size: cover;
+    text-align: center;
+    color: #ac2925;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+/* Here is where I had to change the the text color of my technology page, I did this because the text wasn''t very readable
+   on the background image. I also put in the background images for all the pages and the Jumbotron. */
+#tech{
+    color: red;
+    background-image: url("http://www.blogiswar.net/wp-content/uploads/2014/11/call_of_duty_advanced_warfare.jpg");
+    background-size: cover;
+}
+
+.index{
+    background-image: url("http://www.blogcdn.com/jp.autoblog.com/media/2013/02/07-retrobuilt-1969-mustang-fastback-fd.jpg");
+    width:100%;
+    color: blue;
+    background-size: cover;
+}
+
+#Projects{
+    background-image: url("http://fc01.deviantart.net/fs71/f/2014/213/9/e/superhero_wallpaper__the_guardians_by_ninja_of_athens-d7t90uv.jpg");
+    color: white;
+}
+
+#jumbotron{
+    background-image: url("http://i.cdn.turner.com/drp/nba/bucks/sites/default/files/jabari-giannis-mb-760.jpg");
+    background-size: cover;   
+    color: blue;
+}
