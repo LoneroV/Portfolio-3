@@ -38,10 +38,9 @@ body{
 }
 
 .index{
-    background-image: url("http://www.blogcdn.com/jp.autoblog.com/media/2013/02/07-retrobuilt-1969-mustang-fastback-fd.jpg");
-    width:100%;
-    color: blue;
-    background-size: cover;
+     background-image: url("http://3.bp.blogspot.com/-p8VSjOLfm8Y/UErBemJHXrI/AAAAAAAAF0Y/opf3nKfKJss/s1600/Andrew-Luck-Colts.jpg");
+    background-size: cover;   
+    color: grey;
 }
 
 #Projects{
@@ -49,8 +48,5 @@ body{
     color: white;
 }
 
-#jumbotron{
-    background-image: url("http://i.cdn.turner.com/drp/nba/bucks/sites/default/files/jabari-giannis-mb-760.jpg");
-    background-size: cover;   
-    color: blue;
-}
+
+   
