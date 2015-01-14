@@ -1,11 +1,12 @@
 
 $("document").ready(function(){
     $(".shootout").css("color", "red");
-    $("body").css("color", "goldenrod");
-    $("body").css("background-image", "http://3.bp.blogspot.com/-p8VSjOLfm8Y/UErBemJHXrI/AAAAAAAAF0Y/opf3nKfKJss/s1600/Andrew-Luck-Colts.jpg");
+    $("#index").css("color", "goldenrod");
+    $("body").css("background-color", "grey");
     $("div:nth-child(2)").css("color", "blue");
     $("h1").bind("mouseover", mouseOverMe).bind("mouseout", mouseOutMe);
     $("h1").bind("click", mouseClick);
+    $("#title").css("color", "green");
 });
 
 function mouseOverMe(){
@@ -19,3 +20,23 @@ function mouseOutMe(){
 function mouseClick(){
     $("p").html("");
 }
+
+$("#replaceWText").bind("click", replaceWText);
+
+$("#randPara").bind("click", addAPara);
+
+$("#removePara").bind("click",  removeAPara);
+
+
+function removeAPara(){
+    $("#randPara p:last").remove();
+} 
+
+function addAPara(){
+    $("#randPara").append("<p>ADDED<p>");
+}
+
+function replaceWText(){
+    $("#replaceWText").text("REPLACED!!!!!");
+}
+
