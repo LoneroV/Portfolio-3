@@ -1,13 +1,27 @@
 
 $("document").ready(function(){
     $(".shootout").css("color", "red");
-    $("#index").css("color", "goldenrod");
+    $("div").css("color", "black");
+    $("div").css("background-color", "gold");
     $("body").css("background-color", "grey");
     $("div:nth-child(2)").css("color", "blue");
     $("h1").bind("mouseover", mouseOverMe).bind("mouseout", mouseOutMe);
     $("h1").bind("click", mouseClick);
     $("#title").css("color", "green");
+    $("#replaceWText").bind("click", replaceWText);
+    $("#randPara").bind("click", addAPara);
+    $("#removePara").bind("click",  removeAPara);
+    $("#hide").bind("click", hideThePage);
+    $("#show").bind("click", showThePage);
 });
+
+function hideThePage(){
+    $("div").hide("slide", {},  2500);
+}
+
+function showThePage(){
+    $("div").show("fold", {}, 2500);
+}
 
 function mouseOverMe(){
     $("h1").html("DemonOfLightning");
@@ -21,13 +35,6 @@ function mouseClick(){
     $("p").html("");
 }
 
-$("#replaceWText").bind("click", replaceWText);
-
-$("#randPara").bind("click", addAPara);
-
-$("#removePara").bind("click",  removeAPara);
-
-
 function removeAPara(){
     $("#randPara p:last").remove();
 } 
@@ -39,4 +46,6 @@ function addAPara(){
 function replaceWText(){
     $("#replaceWText").text("REPLACED!!!!!");
 }
+
+
 
