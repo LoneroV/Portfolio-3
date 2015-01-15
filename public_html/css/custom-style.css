@@ -5,6 +5,11 @@ div {
     border-color: black;
     padding: 2px;
     margin: 0px;
+    background-size: cover;
+    text-align: center;
+    color: #ac2925;
+    font-size: 25px;
+    font-style: oblique;
 }
 
 /* Here is where i customize my container, i can change color, width, and style just like i did above. */
@@ -32,20 +37,15 @@ body{
 /* Here is where I had to change the the text color of my technology page, I did this because the text wasn''t very readable
    on the background image. I also put in the background images for all the pages and the Jumbotron. */
 #tech{
-    color: red;
-    background-image: url("http://www.blogiswar.net/wp-content/uploads/2014/11/call_of_duty_advanced_warfare.jpg");
-    background-size: cover;
+    
 }
 
 .index{
-     background-image: url("http://3.bp.blogspot.com/-p8VSjOLfm8Y/UErBemJHXrI/AAAAAAAAF0Y/opf3nKfKJss/s1600/Andrew-Luck-Colts.jpg");
-    background-size: cover;   
-    color: grey;
+    
 }
 
 #Projects{
-    background-image: url("http://fc01.deviantart.net/fs71/f/2014/213/9/e/superhero_wallpaper__the_guardians_by_ninja_of_athens-d7t90uv.jpg");
-    color: white;
+   
 }
 
 

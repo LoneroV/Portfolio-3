@@ -2,7 +2,7 @@
 $("document").ready(function(){
     $(".shootout").css("color", "red");
     $("div").css("color", "black");
-    $("div").css("background-color", "gold");
+    $(".yeah").css("background-color", "gold");
     $("body").css("background-color", "grey");
     $("div:nth-child(2)").css("color", "blue");
     $("h1").bind("mouseover", mouseOverMe).bind("mouseout", mouseOutMe);
@@ -13,6 +13,8 @@ $("document").ready(function(){
     $("#removePara").bind("click",  removeAPara);
     $("#hide").bind("click", hideThePage);
     $("#show").bind("click", showThePage);
+    $("#superHumans").accordion({header: "h3"});
+    
 });
 
 function hideThePage(){
