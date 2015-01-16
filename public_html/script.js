@@ -2,9 +2,7 @@
 $("document").ready(function(){
     $(".shootout").css("color", "red");
     $("div").css("color", "black");
-    $(".yeah").css("background-color", "gold");
-    $("body").css("background-color", "grey");
-    $("div:nth-child(2)").css("color", "blue");
+    $("div:nth-child(2)").css("color", "black");
     $("h1").bind("mouseover", mouseOverMe).bind("mouseout", mouseOutMe);
     $("h1").bind("click", mouseClick);
     $("#title").css("color", "green");
@@ -26,15 +24,15 @@ function showThePage(){
 }
 
 function mouseOverMe(){
-    $("h1").html("DemonOfLightning");
+    $("h2").html("DemonOfLightning");
 }
 
 function mouseOutMe(){
-    $("h1").html("Click me for more information");
+    $("h2").html("Click me for more information");
 }
 
 function mouseClick(){
-    $("p").html("");
+    $("p").html("OH NO!!!!!! REFRESH THE PAGE!!!!!!!!!!");
 }
 
 function removeAPara(){
@@ -48,6 +46,3 @@ function addAPara(){
 function replaceWText(){
     $("#replaceWText").text("REPLACED!!!!!");
 }
-
-
-

@@ -2,9 +2,6 @@
 div {
     border-style: solid;
     border-width: 0px;
-    border-color: black;
-    padding: 2px;
-    margin: 0px;
     background-size: cover;
     text-align: center;
     color: #ac2925;
@@ -24,24 +21,16 @@ div {
     border-width: 0px;
 }
 
-/* Here is where i customize my body, this is where i can change  all the text, the text color, and style
-   on the website except for my technology page because of one minor visual detail */
-body{
-    background-size: cover;
-    text-align: center;
-    color: #ac2925;
-    font-size: 25px;
-    font-style: oblique;
-}
-
 /* Here is where I had to change the the text color of my technology page, I did this because the text wasn''t very readable
    on the background image. I also put in the background images for all the pages and the Jumbotron. */
 #tech{
     
 }
 
-.index{
-    
+#index{
+    background-image: url("http://www.hdwallpapers.in/walls/call_of_duty_advanced_warfare-wide.jpg");
+    background-size: cover;
+    color: red;
 }
 
 #Projects{
