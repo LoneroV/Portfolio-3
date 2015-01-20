@@ -4,9 +4,9 @@ div {
     border-width: 0px;
     background-size: cover;
     text-align: center;
-    color: #ac2925;
     font-size: 25px;
-    font-style: oblique;
+    font-style: normal;
+    color: red;
 }
 
 /* Here is where i customize my container, i can change color, width, and style just like i did above. */
@@ -24,17 +24,23 @@ div {
 /* Here is where I had to change the the text color of my technology page, I did this because the text wasn''t very readable
    on the background image. I also put in the background images for all the pages and the Jumbotron. */
 #tech{
-    
+    background-image: url("http://s21.postimg.org/aynl2n87r/JESTER.jpg");
+    background-size: cover;
+    color: red;
 }
 
 #index{
     background-image: url("http://www.hdwallpapers.in/walls/call_of_duty_advanced_warfare-wide.jpg");
-    background-size: cover;
     color: red;
 }
 
 #Projects{
    
+}
+
+#nav{
+    background-color: maroon;
+    text-decoration-color: gold;
 }
 
 

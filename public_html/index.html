@@ -17,24 +17,18 @@ and open the template in the editor.
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     </head>
     <body>
-        <div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                MORE ABOUT ME
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About Me</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="Technology.html">Technology</a></li>
-                <li role="presentation"><a role="menuitem" tabindex="-1" href="Projects.html">Projects</a></li>
-            </ul>
-        </div>
+        <ul class="nav nav-pills" id="nav">
+            <li role="presentation" class="active"><a href="index.html">Home</a></li>
+            <li role="presentation"><a href="Technology.html">Technology</a></li>
+            <li role="presentation"><a href="Projects.html">Projects</a></li>
+        </ul>
         <div class="container index" id="index">
             <h1>About Me</h1>
             <!-- This class gives me rows, inside the rows are columns to make everything look organized.
                  Also I have given a little insight of who I am, what I like to, and what I want to do with my life. -->
             <div class="row">
                 <p>My name is Vincent Lonero. I am PHS Senior.</p>
-                <div class="col-xs-8">
+                <div class="col-xs-12">
                     <p>Something's you should know about me are: <br />
                         I'm a HUGE American Muscle Car Fan and I love Basketball, Music.<br />
                         I am the Vice President of the PHS Frisbee club.<br />
@@ -48,19 +42,6 @@ and open the template in the editor.
                         You should go check them out on Twitch and YouTube.<br />
                         My favorite Viner is the GORGEOUS Julia Kelly, because she's an angel sent from Heaven.
                     </p>
-                    <div class="col-xs-2">
-                        <div class="dropdown">
-                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-                                MORE ABOUT ME
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                <li class="active" role="presentation"><a role="menuitem" tabindex="-1" href="index.html">About Me</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="Technology.html">Technology</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="Projects.html">Projects</a></li>
-                            </ul>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-xs-6">
                             <iframe width="360" height="300" src="//www.youtube.com/embed/QxTpsWDGy84?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
