@@ -6,7 +6,7 @@ div {
     text-align: center;
     font-size: 25px;
     font-style: normal;
-    color: red;
+    color: goldenrod;
 }
 
 /* Here is where i customize my container, i can change color, width, and style just like i did above. */
@@ -30,18 +30,16 @@ div {
 }
 
 #index{
-    background-image: url("http://www.hdwallpapers.in/walls/call_of_duty_advanced_warfare-wide.jpg");
-    color: red;
+    background-image: url("http://www.dsogaming.com/wp-content/uploads/2014/05/COD-AW-1.jpg");
+    color: goldenrod;
 }
 
-#Projects{
-   
+#body{
+   background-color: maroon;
+   color: gold;
 }
 
 #nav{
     background-color: maroon;
-    text-decoration-color: gold;
+    color: gold;
 }
-
-
-   

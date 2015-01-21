@@ -1,8 +1,6 @@
 
 $("document").ready(function(){
-    $(".shootout").css("color", "red");
-    $("div").css("color", "black");
-    $("div:nth-child(2)").css("color", "black");
+    $("div:nth-child(1)").css("color", "black");
     $("h1").bind("mouseover", mouseOverMe).bind("mouseout", mouseOutMe);
     $("h1").bind("click", mouseClick);
     $("#title").css("color", "green");
