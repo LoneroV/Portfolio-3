@@ -38,6 +38,7 @@ function removeAPara(){
 } 
 
 function addAPara(){
+    console.log("adding");
     $("#randPara").append("<p>ADDED<p>");
 }
 

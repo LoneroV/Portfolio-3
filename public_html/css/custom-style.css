@@ -24,9 +24,8 @@ div {
 /* Here is where I had to change the the text color of my technology page, I did this because the text wasn''t very readable
    on the background image. I also put in the background images for all the pages and the Jumbotron. */
 #tech{
-    background-image: url("http://s21.postimg.org/aynl2n87r/JESTER.jpg");
-    background-size: cover;
-    color: red;
+    background-color: maroon;
+    color: goldenrod;
 }
 
 #index{
@@ -42,4 +41,14 @@ div {
 #nav{
     background-color: maroon;
     color: gold;
+}
+
+#Projects{
+    background-color: maroon;
+    color: gold;
+}
+
+#Jquery{
+    background-color: maroon;
+    color: goldenrod;
 }
